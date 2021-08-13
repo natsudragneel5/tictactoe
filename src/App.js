@@ -1,9 +1,10 @@
 import React from "react";
+import Board from "./components/Board";
 const App = () => {
   return (
     <div>
-      <h1>Welcome to React Parcel Micro App!</h1>
-      <p>this React app.</p>
+      <h1>Tic Tac Toe</h1>
+      <Board />
     </div>
   );
 };
